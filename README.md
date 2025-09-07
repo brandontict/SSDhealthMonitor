@@ -10,7 +10,7 @@ for partition in partitions:
     usage = psutil.disk_usage(partition.mountpoint)
     print(f"{partition.device}: {usage.percent}%")
 ```
-I had then brainstormed with my LLM agent🤖 and came up with a much better version with the following 
+Working with my LLM agent🤖, I refined it into a much better version. Incuding the following 
 
 ## Features
 
